@@ -1,0 +1,34 @@
+.form_degi{
+    padding-top: 100px;
+}
+.label_text{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.admission_form{
+    background-color: rgb(121, 181, 211);
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.title_deg{
+    /* background-color: rgb(255, 255, 255); */
+    color: black;
+    text-align: center;
+    width: 400px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.body_deg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+

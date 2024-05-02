@@ -1,0 +1,78 @@
+/* index style  */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    background-color: rgb(94, 162, 225);
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+.logo{
+    font-size: 50px;
+    position: relative;
+    left: 2%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 70px;
+}
+ul{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+ul li a{
+    color: aliceblue;
+}
+
+.main_img{
+    width: 100%;
+    height: 900px;
+}
+
+/* login form style  */
+
+.form_deg{
+    padding-top: 200px;
+}
+.label_deg{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.login_form{
+    background-color: rgb(121, 181, 211);
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.title_deg{
+    /* background-color: rgb(255, 255, 255); */
+    color: black;
+    text-align: center;
+    width: 400px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.body_deg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}

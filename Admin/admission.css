@@ -1,0 +1,81 @@
+.content{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+        .label_deg {
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px; /* Add margin bottom for spacing */
+}
+
+.add_deg {
+    background-color: #f2f2f2; /* Lighter background color */
+    width: 500px;
+    padding: 30px;
+    margin: 0 auto; /* Center the form horizontally */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Extra CSS for improved visibility and alignment */
+.label_deg {
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.add_deg {
+    background-color: rgb(121, 181, 211);
+    width: 500px;
+    padding: 30px;
+    margin: 0 auto; /* Center the form horizontally */
+    border-radius: 10px;
+}
+
+.add_deg form div {
+    margin-bottom: 15px; /* Add spacing between form elements */
+}
+
+.add_deg form div:last-child {
+    margin-bottom: 0; /* Remove bottom margin for last form element */
+}
+
+.add_deg form input[type="text"],
+.add_deg form input[type="number"],
+.add_deg form input[type="email"],
+.add_deg form input[type="password"],
+.add_deg form select,
+.add_deg form textarea {
+    width: calc(100% - 130px); /* Adjust width for form inputs */
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.add_deg form select {
+    width: 190px; /* Set width for select inputs */
+}
+
+.add_deg form input[type="file"] {
+    margin-top: 5px; /* Add top margin for file input */
+}
+
+.add_deg form input[type="submit"] {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; 
+}
+
+
+/* Add top margin for submit button */

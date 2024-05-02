@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    background-color: rgb(94, 162, 225);
+    line-height: 70px;
+    padding-left: 30px;
+}
+a,a:hover{
+    text-decoration: none!important;
+    color: aliceblue;
+}
+.admin_dash{
+    color: black;
+    font-size: 20px;
+}
+.logout{
+    float: right;
+    padding-right: 30px;
+}
+ul{
+    background-color: rgb(70, 75, 78);
+    width: 16%;
+    height: 100%;
+    position: fixed;
+    padding-top: 5%;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+ul li a{
+    color: white;
+    font-size: bold;
+}
+ul li a:hover{
+    color: skyblue;
+    text-decoration: none;
+}
